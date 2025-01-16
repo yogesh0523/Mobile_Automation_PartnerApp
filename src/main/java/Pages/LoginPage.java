@@ -79,6 +79,8 @@ public class LoginPage extends Basepage{
 		driver.findElement(LetsgetStarted).click();
     }
 	
+
+	
 	public void getLogin(String number) throws InterruptedException {
 		clickOnSkipBtn();
 		clickOnGetStarted();
